@@ -1,0 +1,59 @@
+body{
+  background-color: rgb(170, 172, 174);
+
+}
+.App {
+  text-align: center;
+ 
+}
+
+
+.board{
+  margin-top: 25px;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto;
+  justify-content: center;
+ 
+}
+
+.cell{
+  width: 90px;
+  height: 90px;
+
+}
+
+.logo{
+ display: flex;
+ flex-direction: column;
+ margin-top: 10px;
+ align-items: center;
+ justify-content: center;
+
+}
+
+.backgroundWhite{
+  background-color: white;
+}
+
+.backgroundBlack{
+  background-color:black;
+}
+.backGroundFocus{
+  background-color: rgb(232, 229, 175);
+}
+
+.green{
+    color: #039be5;
+
+}
+
+.red {
+  color: #f44336
+
+}
+
+.possibleChances{
+   background-color: lime;
+  border: 1px solid gray;
+  margin : auto;
+}
